@@ -1,5 +1,5 @@
 
-import Auth from './Register/page'
+import Auth from './register/page'
 
 export default function Home() {
   return (
