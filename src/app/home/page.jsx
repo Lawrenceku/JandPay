@@ -19,7 +19,7 @@ function Dashboard(){
     } 
 return(
     <>
-    <div className='sm:px-8 px-2 bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col'>
+    <div className='h-screen sm:px-8 px-2 bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col'>
         <div className='text-gray-900  text-xl py-8 font-bold flex '>
             <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-1023x1024-ucnnjrj1.png" className='rounded h-8'  alt="pfp" />
             <p className='absolute ml-12'>Hello, User 001</p>
@@ -52,7 +52,7 @@ return(
 
         </div>
     </div>
-    <footer id="bottom-nav" className="w-full h-16 bottom-0 fixed bg-white/10 backdrop-blur-md flex font-medium justify-around items-center">
+    <footer id="bottom-nav" className="w-full h-16 bottom-0 fixed bg-white/20 backdrop-blur-md flex font-medium justify-around items-center">
             <Link href="/home"  >
                 <div className=" text-gray-400 fill-gray-400 flex flex-col items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z"/></svg><p>Home </p>
