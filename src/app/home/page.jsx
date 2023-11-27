@@ -1,16 +1,21 @@
 'use client'
-import React, { useState } from 'react';
-import Link from "next/link";
+import React from 'react';
 import { useToggle } from '@/hooks/useToggle';
 import Navbar from '../../../components/Navbar';
-//import {name} from './App'
+import { Box, Container } from '@mui/material';
+import MainHOC from '../../../components/mainHOC';
  
 
 function Dashboard() {
     const [showAvailableBalance, toggleShowAvailableBalance] = useToggle(true)
     return (
-        <main className='bg-neutral-200 py-4'>
+        <main className='bg-neutral-300 py-4'>
             <Navbar/>
+            <MainHOC>
+                <Container>
+                
+                </Container>
+            </MainHOC>
             {/* <div className='sm:px-8 px-2 bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col'>
                 <div className='text-gray-900  text-xl py-8 font-bold flex '>
                     <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-1023x1024-ucnnjrj1.png" className='rounded h-8' alt="pfp" />

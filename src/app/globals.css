@@ -4,7 +4,7 @@
 
   --clr-neutral-100: #fff;
   --clr-neutral-200: #eee;
-  --clr-neutral-300: #ECFOF2;
+  --clr-neutral-300: rgba(236, 240, 242, 1);
   --clr-neutral-400: #f2f2f2;
   --clr-neutral-500: #333;
   --clr-neutral-600: #222;
@@ -20,6 +20,12 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   display: grid;
+}
+
+.main-grid{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 2.5rem;
 }
 
 #line {

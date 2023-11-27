@@ -17,7 +17,7 @@ module.exports = {
         'primary-blue': "#007BCB",
         'neutral-100': "#fff",
         "neutral-200": "#eee",
-        "neutral-300": "#ECFOF2",
+        "neutral-300": "rgba(236, 240, 242, 1)",
         "neutral-400": "#f2f2f2",
         "neutral-500": "#333",
         "neutral-600": "#222"
