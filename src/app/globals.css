@@ -46,6 +46,26 @@ body {
 #hero-content {
   padding-top: 5%;
 }
+<<<<<<< HEAD
+#card-container{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-container{
+  width: 9em;
+}
+#sign-in{
+ border: 1px solid #1E293B;
+ color:#1E293B;
+ height: 100%;
+ padding-left: 2vw;
+ padding-right: 2vw;
+ text-align: center;
+=======
 
 #sign-in {
   border: 1px solid #1E293B;
@@ -54,14 +74,20 @@ body {
   padding-left: 2vw;
   padding-right: 2vw;
   text-align: center;
+>>>>>>> 5d78c769c53ad7996debc301aab1fad1814177b4
 }
 
 #sign-up {
   height: 100%;
 }
+<<<<<<< HEAD
+#nav-sign{
+  padding: 0.9em;
+=======
 
 #nav-sign {
   padding: 1%;
+>>>>>>> 5d78c769c53ad7996debc301aab1fad1814177b4
   padding-left: 2vw;
   padding-right: 2vw;
 }
@@ -72,9 +98,20 @@ body {
   justify-content: center;
   position: absolute;
 }
+<<<<<<< HEAD
+#list2:hover{
+  color: white;
+  /*margin-bottom: 3%;*/
+ 
+}
+#footer{
+  background: url('https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-34128.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais');
+  
+=======
 
 #footer {
   background-color: #1E293B;
+>>>>>>> 5d78c769c53ad7996debc301aab1fad1814177b4
   padding-top: 10vh;
   border-radius: 100%/ 0% 30% 0 0;
 }
