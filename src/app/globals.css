@@ -9,7 +9,7 @@
   --clr-neutral-500: #333;
   --clr-neutral-600: #222;
 
-  --site-padding: clamp(5rem, 9vw, 15rem)
+  --site-padding: clamp(5rem, 6vw, 15rem)
 }
 
 .has-site-padding{
