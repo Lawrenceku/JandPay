@@ -12,7 +12,7 @@ function Dashboard() {
         <main className='bg-neutral-300 py-4'>
             <Navbar/>
             <MainHOC>
-                <Container>
+                <Container className=''>
                 
                 </Container>
             </MainHOC>
