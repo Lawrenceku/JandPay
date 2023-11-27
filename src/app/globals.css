@@ -9,7 +9,7 @@
   --clr-neutral-500: #333;
   --clr-neutral-600: #222;
 
-  --site-padding: clamp(5rem, 15vw, 15rem)
+  --site-padding: clamp(5rem, 9vw, 15rem)
 }
 
 .has-site-padding{
@@ -17,7 +17,9 @@
 }
 
 body {
-  
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
 }
 
 #line {
