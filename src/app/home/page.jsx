@@ -1,9 +1,9 @@
 'use client'
 import React from 'react';
 import { useToggle } from '@/hooks/useToggle';
-import Navbar from '../../../components/Navbar';
+import Navbar from '/components/Navbar';
 import { Box, Container } from '@mui/material';
-import MainHOC from '../../../components/mainHOC';
+import MainHOC from '/components/mainHOC';
 
 
 function Dashboard() {
