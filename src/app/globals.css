@@ -160,4 +160,6 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 
 /* Large screens (lg) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  
+}

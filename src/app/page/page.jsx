@@ -1,9 +1,9 @@
 
 import Head from "next/head";
-import Hero from '/components/Hero.jsx'
-import Navbar from "/components/Navbar";
-import Footer from "/components/footer";
-import Benefits from "/components/Benefits";
+import Hero from '../components/Hero.jsx'
+import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
+import Benefits from "../components/Benefits";
 
 const Home = () => {
   return (
