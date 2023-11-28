@@ -2,8 +2,8 @@
 import React from 'react';
 import { useToggle } from '@/hooks/useToggle';
 import Navbar from '../../components/Navbar';
-import { Box, Container } from '@mui/material';
-import MainHOC from '../../components/mainHOC';
+import { Container } from '@mui/material';
+import MainHOC from '../../components/MainHOC';
 
 
 function Dashboard() {

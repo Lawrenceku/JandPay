@@ -1,4 +1,4 @@
-// mainHOC.jsx
+//MainHOC.jsx
 'use client'
 import React from 'react';
 import Sidebar from './Sidebar';
