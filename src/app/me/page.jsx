@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const Me=()=>{
@@ -8,8 +9,8 @@ return(
     <>
     <div className="bg-gradient-to-r h-screen from-cyan-500 to-blue-500">
         <div className="  backdrop-blur-md  bg-black/50 flex items-center h-24 p-4 ">
-            <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-1023x1024-ucnnjrj1.png" className='rounded h-8 '  alt="pfp" /><p className="ml-2 text-gray-100 ">Hello User 001</p>
-            <img className='h-6 w-6 absolute right-4' src="https://cdn.onlinewebfonts.com/svg/img_454470.png" alt="" />
+            <Image src="https://static-00.iconduck.com/assets.00/profile-circle-icon-1023x1024-ucnnjrj1.png" className='rounded h-8 ' alt="pfp" /><p className="ml-2 text-gray-100 ">Hello User 001</p>
+            <Image className='h-6 w-6 absolute right-4' src="https://cdn.onlinewebfonts.com/svg/img_454470.png" alt="" />
         </div>
         <div className="flex font-bold flex-col items-bottom">
             <div className="shadow-sm py-4 px-2">
