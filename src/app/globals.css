@@ -104,9 +104,16 @@ body {
   /*margin-bottom: 3%;*/
  
 }
+<<<<<<< HEAD
 #footer{
   background: url('https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-34128.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais');
 
+=======
+
+
+#footer {
+  background: url('https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-34128.jpg?size=626&ext=jpg&ga=GA1.1.1917407316.1652918962&semt=ais');
+>>>>>>> 12f1098ecf1692eacebad40b744dbf798c8d996d
   background-color: #1E293B;
 
   padding-top: 10vh;
@@ -157,4 +164,6 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991px) {}
 
 /* Large screens (lg) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  
+}

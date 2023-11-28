@@ -27,7 +27,7 @@ function Benefits() {
                   that comes with transparent transaction fees. We pride ourselves on providing a clear 
                   breakdown of fees associated with your financial transactions. No hidden charges or surprises 
                   – just straightforward, honest pricing. With JandPay, you can confidently send and receive money 
-                  across borders, knowing exactly what you'll be charged for the convenience of our services.
+                  across borders, knowing exactly what you&apos;ll be charged for the convenience of our services.
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -50,7 +50,7 @@ function Benefits() {
                   Experience the speed of instant cross-border transfers with JandPay. Say goodbye 
                   to the days of waiting for your funds to reach their destination. Our advanced technology 
                   ensures that your transactions are processed swiftly and efficiently, allowing you to send and
-                   receive money in real-time. Whether it's for business or personal use, JandPay empowers you with
+                   receive money in real-time. Whether it&apos;s for business or personal use, JandPay empowers you with
                     the ability to move your money across borders instantly, providing a level of convenience that fits your fast-paced lifestyle.
                   </Typography>
                 </CardContent>

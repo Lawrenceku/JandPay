@@ -38,8 +38,8 @@ const Sidebar = () => {
         <aside className="p-2 w-52 flex justify-center bg-white sticky rounded-md">
             <List className='flex items-center flex-col'>
                 {linksArr.map(item => {
-                    return (<ListItem>
-                        <Link href={item.to} key={item.to} className={`${route == item.to ? "text-primary-blue": ""}`}><Stack direction="row" alignItems="center" justifyContent="center" gap={1}>{item.icon}<ListItemText className='text-inherit text-sm font-medium'>{item.label}</ListItemText></Stack></Link>
+                    return (<ListItem key={item.to}>
+                        <Link href={item.to} className={`${route == item.to ? "text-primary-blue": ""}`}><Stack direction="row" alignItems="center" justifyContent="center" gap={1}>{item.icon}<ListItemText className='text-inherit text-sm font-medium'>{item.label}</ListItemText></Stack></Link>
                     </ListItem>)
                 })}
             </List>

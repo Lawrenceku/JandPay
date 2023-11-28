@@ -4,15 +4,17 @@ import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 //import background from './public/signup.png';
 import Link from "next/link";
+import Image from "next/image";
+
 function Auth() {
     return (
         <>
             <div className=' bg-[#007bcb]'>
                 <a className='absolute z-50 block top-0 m-2' href="">
-                    <img  src="/JandPay Logo.png" alt="" />
+                    <Image  src="/JandPay Logo.png" width={300} height={300} alt="" />
                 </a>
                 <div className='h-screen w-screen'>
-                <img className='h-full w-full absolute hidden lg:block' src='/signup.png' alt="" />
+                <Image className='h-full w-full absolute hidden lg:block' src='/signup.png' width={300} height={300} alt="" />
                 </div>
                 <div className='flex flex-col w-full items-center justify-center z-500 bg-white rounded-3xl relative top-48 right-0 pb-0 p-2 lg:m-2 lg:shadow-xl  lg:absolute  lg:w-1/2 lg:p-4' >
                     <h1 className='text-3xl font-medium text-center m-4 z-9'>Sign In </h1>

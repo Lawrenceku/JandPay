@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button, Typography } from '@mui/material';
 import Link from 'next/link';
+import Image from "next/image";
 
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
         </Link>
         </div>
       </div>
-      <img id='hero-img' className='' src="/hero-img.png" alt="" />
+      <Image id='hero-img' className='' width={300} height={300} src="/hero-img.png" alt="" />
     </div>
   );
 };
