@@ -4,6 +4,8 @@ import React from 'react';
 import  Button from '@mui/material/Button';
 import Link from 'next/link';
 
+import JandPayLogo from './JandPay Logo 2.svg';
+import { LogoutOutlined, SearchOutlined } from '@mui/icons-material';
 
 const Navbar = () => {
   return (
